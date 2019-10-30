@@ -1551,8 +1551,6 @@ IO::EWOULDBLOCKWaitWritable = IO::EAGAINWaitWritable
 
 class IO
   def self.foreach(*_); end
-
-  def self.pipe(*_); end
 end
 
 class IPAddr
